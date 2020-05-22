@@ -2,7 +2,7 @@ Open Info Window for Kodi
 ======
 
 ### What is it?
-A simple script that opens the Video Info screen (DialogVideoInfo.xml) when a video is playing.  I often watch a video and want to identify an actor or see some other data not available when pressing I.  This allows me to pull up the cast list.  I find it especially useful in PseudoTV where don't want to just stop the video.
+A simple script that opens the Video Info screen (DialogVideoInfo.xml) when a video is playing.  I often watch a video and want to identify an actor or see some other data not available when pressing I.  This allows me to pull up the cast list.  I find it especially useful in PseudoTV where you don't want to just stop the video.
 
 ### Setup
 1. Install the add-on (obviously).
@@ -11,10 +11,10 @@ A simple script that opens the Video Info screen (DialogVideoInfo.xml) when a vi
 ```
 <FullscreenVideo>
         <keyboard>
-			<!--other stuff that may already be here...-->
+		<!--other stuff that may already be here...-->
 			
-			<c mod="ctrl">RunScript(script.openinfowindow)</c>  
-		</keyboard>
+		<c mod="ctrl">RunScript(script.openinfowindow)</c>  
+	</keyboard>
 </FullscreenVideo>
 ```
 
@@ -23,10 +23,10 @@ If you want to use it in PseudoTV, you (also) need to put it in the global secti
 ```
 <Global>
         <keyboard>
-			<!--other stuff that may already be here...-->
+		<!--other stuff that may already be here...-->
 			
-			<c mod="ctrl">RunScript(script.openinfowindow)</c>  
-		</keyboard>
+		<c mod="ctrl">RunScript(script.openinfowindow)</c>  
+	</keyboard>
 </Global>
 ```
 
