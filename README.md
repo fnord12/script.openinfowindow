@@ -1,4 +1,4 @@
-Open Info Window
+Open Info Window for Kodi
 ======
 
 ### What is it?
