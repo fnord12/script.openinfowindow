@@ -11,7 +11,7 @@ A simple script that opens the Video Info screen (DialogVideoInfo.xml) when a vi
 ```
 <FullscreenVideo>
         <keyboard>
-			#other stuff that may already be here...
+			<!--other stuff that may already be here...-->
 			
 			<c mod="ctrl">RunScript(script.openinfowindow)</c>  
 		</keyboard>
@@ -23,7 +23,7 @@ If you want to use it in PseudoTV, you (also) need to put it in the global secti
 ```
 <Global>
         <keyboard>
-			#other stuff that may already be here...
+			<!--other stuff that may already be here...-->
 			
 			<c mod="ctrl">RunScript(script.openinfowindow)</c>  
 		</keyboard>
@@ -43,7 +43,7 @@ In Confluence, find this and add the visible line:
 	<alttexturenofocus border="2">button-nofocusa.png</alttexturenofocus>
 	<altlabel>1024</altlabel>
 	<usealttexture>String.IsEqual(ListItem.DBTYPE,tvshow)</usealttexture>
-	<visible>!Player.HasVideo</visible>	<----- add this
+	<visible>!Player.HasVideo</visible>	<!----- add this -->
 </control>
 ```
 
@@ -60,7 +60,7 @@ In Estuary, find this and add the visible line:
 	<alttexturenofocus border="2">button-nofocusa.png</alttexturenofocus>
 	<altlabel>1024</altlabel>
 	<usealttexture>String.IsEqual(ListItem.DBTYPE,tvshow)</usealttexture>
-	<visible>!Player.HasVideo</visible> <----- add this
+	<visible>!Player.HasVideo</visible> <!----- add this -->
 </control>
 ```
 
