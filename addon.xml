@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.openinfowindow" name="Open Info Window" version="0.1.0" provider-name="fnord12">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Provides the ability to map the opening of the Video Info Screen (DialogVideoInfo.xml) to a keyboard key while a video is playing.</summary>
+		<description lang="en_GB">Opens the Video Info Screen when a video is playing.  Useful to see cast list and other details especially while in PseudoTV.  You can put this in your keymap to run the script by pressing Control-C (or any key you like): &lt;c mod="ctrl"&gt;RunScript(script.openinfowindow)&lt;/c&gt; This needs to be in two places in your keymap - once in the global section for PseudoTV and once in the FullscreenVideo section for regular playing.  See readme file for idiot-proofing your Info file to hide the Play button.</description>
+		<language></language>
+		<platform>all</platform>
+    
+</extension>
+</addon>
+
+
+
