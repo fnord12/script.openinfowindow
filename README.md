@@ -43,7 +43,7 @@ In Confluence, find this and add the visible line:
 	<alttexturenofocus border="2">button-nofocusa.png</alttexturenofocus>
 	<altlabel>1024</altlabel>
 	<usealttexture>String.IsEqual(ListItem.DBTYPE,tvshow)</usealttexture>
-	<visible>!Player.HasVideo</visible>										<----- add this
+	<visible>!Player.HasVideo</visible>	<----- add this
 </control>
 ```
 
@@ -60,7 +60,7 @@ In Estuary, find this and add the visible line:
 	<alttexturenofocus border="2">button-nofocusa.png</alttexturenofocus>
 	<altlabel>1024</altlabel>
 	<usealttexture>String.IsEqual(ListItem.DBTYPE,tvshow)</usealttexture>
-	<visible>!Player.HasVideo</visible>										<----- add this
+	<visible>!Player.HasVideo</visible> <----- add this
 </control>
 ```
 
