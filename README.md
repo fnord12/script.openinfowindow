@@ -2,11 +2,11 @@ Open Info Window
 ======
 
 ### What is it?
-A simple script that opens the Video Info screen (DialogVideoInfo.xml) when a video is playing.  I often watch a video and want to identify an actor.  This allows me to pull up the cast list.  I find it especially useful in PseudoTV where don't want to just stop the video.
+A simple script that opens the Video Info screen (DialogVideoInfo.xml) when a video is playing.  I often watch a video and want to identify an actor or see some other data not available when pressing I.  This allows me to pull up the cast list.  I find it especially useful in PseudoTV where don't want to just stop the video.
 
 ### Setup
 1. Install the add-on (obviously).
-2. To use it, the script needs to be mapped to a key in your [keymap file](https://kodi.wiki/view/Keymap#Location_of_keymaps).  If you just want this for regular playing in Kodi, the key can go in the FullscreenVideo section.  Example:
+2. To use it, the script needs to be mapped to a key in your [keymap file](https://kodi.wiki/view/Keymap#Location_of_keymaps).  If you just want this for regular playing in Kodi, the key can go in the FullscreenVideo section.  Example for using Control-C (you can map to any key you want):
 
 ```
 <FullscreenVideo>
