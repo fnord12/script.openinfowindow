@@ -1,5 +1,3 @@
-# import the kodi python modules we are going to use
-# see the kodi api docs to find out what functionality each module provides
 import xbmc
 import xbmcaddon
 import sys
@@ -7,24 +5,16 @@ import xbmcgui
 import json
 
 def debug(msg, *args):
-    try:
-        txt=u''
-        msg=unicode(msg)
+    try: 
+        xbmc.log("OPENINFOWIN: " + (str(msg)))
+     
         for arg in args:
-            if type(arg) == int:
-                arg = unicode(arg)
-            if type(arg) == list:
-                arg = unicode(arg)
-            txt = txt + u"/" + arg
-        if txt == u'':
-            xbmc.log(u"OPENWIN: {0}".format(msg).encode('ascii','xmlcharrefreplace'), xbmc.LOGDEBUG)
-        else:
-            xbmc.log(u"OPENWIN: {0}#{1}#".format(msg, txt).encode('ascii','xmlcharrefreplace'), xbmc.LOGDEBUG)
+            print(str(arg))
     except:
-        print "OPENWIN: Error in Debugoutput"
-        print msg
-        print args
-               
+        print ("OPENINFOWIN: Error in Debugoutput")
+        print (msg)
+        print (args)
+        
 def getListItem(path):
     li = xbmcgui.ListItem("To Search")
     li.setPath(path)
@@ -37,7 +27,7 @@ def displayVideoInfo(li):
     dialog.info(li)
     xbmc.executebuiltin('SendClick(,5)')
     xbmc.executebuiltin('Control.SetFocus(5)')
-    
+
 
 if (__name__ == '__main__'):
     path = xbmc.getInfoLabel('Player.Filenameandpath')
