@@ -1,4 +1,4 @@
-Open Info Window for Kodi
+Open Info Window for for Kodi 21 Omega
 ======
 
 ### What is it?
@@ -63,8 +63,5 @@ In Estuary, find this and add the visible line:
 	<visible>!Player.HasVideo</visible> <!----- add this -->
 </control>
 ```
-
-### Warnings
-Only tested in Kodi 18 Leia.
 
 
